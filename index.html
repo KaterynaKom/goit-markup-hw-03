@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="page-header container">
+    <header class="page-header">
+        <div class="container header-container">
         <nav class="page-navigation">
-            <a href="./index.html" class="logo link">Web<span class="logo-part-dark">Studio</span></a>
+            <a href="./index.html" class="logo-header link">Web<span class="logo-part-dark">Studio</span></a>
         <ul class="menu list">
             <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
             <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
@@ -28,6 +29,7 @@
             <li class="contact-item"><a class="contact-info-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        </div>
     </header>
     <main class="page-content">
         <section class="hero">
@@ -36,33 +38,33 @@
             <button class="order-button" type="button">Order Service</button>
             </div>
         </section> 
-        <section class="work-principles-section">
+        <section class="work-principles-section section">
             <div class="container">
             <h2 class="hidden-title" hidden>Work principles</h2>
                <ul class="work-principles-list list">
                <li class="work-principles-item">
-                    <h3 class="description-title">Strategy</h3>
-                    <p class="description-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    <h3 class="work-principles-description-title">Strategy</h3>
+                    <p class="work-principles-description-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
                 <li class="work-principles-item">
-                    <h3 class="description-title">Punctuality</h3>
-                    <p class="description-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    <h3 class="work-principles-description-title">Punctuality</h3>
+                    <p class="work-principles-description-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                 </li>
                 <li class="work-principles-item">
-                    <h3 class="description-title">Diligence</h3>
-                    <p class="description-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                    <h3 class="work-principles-description-title">Diligence</h3>
+                    <p class="work-principles-description-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     
                 </li>
                 <li class="work-principles-item">
-                    <h3 class="description-title">Technologies</h3>
-                     <p class="description-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                    <h3 class="work-principles-description-title">Technologies</h3>
+                     <p class="work-principles-description-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
                 </ul>
             </div>
         </section>
-        <section class="our-services-section">
+        <section class="our-services-section section">
             <div class="container">
-            <h2 class="section-title">What are we doing</h2>
+            <h2 class="our-services-section-title">What are we doing</h2>
             <ul class="our-services-list list">
                 <li class="our-services-list-item"><img src="./images/Rectangle71.jpg" alt="Computer" width="360" height="300"></li>
                 <li class="our-services-list-item"><img src="./images/Rectangle72.jpg" alt="Mobile" width="360" height="300"></li>
@@ -70,25 +72,33 @@
             </ul>
             </div>
         </section>
-        <section class="our-team-section">
+        <section class="our-team-section section">
             <div class="container">
-            <h2 class="section-title">Our Team</h2>
+            <h2 class="our-team-section-title">Our Team</h2>
             <ul class="our-team-list list">
-                <li class="our-team-list-item card"><img src="./images/MarkGuerrero.jpg" alt="Mark Guerrero Product Designer" width="264" height="260">
-                    <h3 class="description-title">Mark Guerrero</h3>
-                    <p class="description-text">Product Designer</p>
+                <li class="our-team-list-item card"><img class="our-team-img" src="./images/MarkGuerrero.jpg" alt="Mark Guerrero Product Designer" width="264" height="260">
+                    <div class="our-team-container">
+                    <h3 class="our-team-description-title">Mark Guerrero</h3>
+                    <p class="our-team-description-text">Product Designer</p>
+                    </div>
                 </li>
-                <li class="our-team-list-item card"><img src="./images/TomFord.jpg" alt="Tom Ford Frontend Developer" width="264" height="260">
-                    <h3 class="description-title">Tom Ford</h3>
-                    <p class="description-text">Frontend Developer</p>
+                <li class="our-team-list-item card"><img class="our-team-img" src="./images/TomFord.jpg" alt="Tom Ford Frontend Developer" width="264" height="260">
+                    <div class="our-team-container">
+                    <h3 class="our-team-description-title">Tom Ford</h3>
+                    <p class="our-team-description-text">Frontend Developer</p>
+                    </div>
                 </li>
-                <li class="our-team-list-item card"><img src="./images/CamilaGarcia.jpg" alt="Camila Garcia Marketing" width="264" height="260">
-                    <h3 class="description-title">Camila Garcia</h3>
-                    <p class="description-text">Marketing</p>
+                <li class="our-team-list-item card"><img class="our-team-img" src="./images/CamilaGarcia.jpg" alt="Camila Garcia Marketing" width="264" height="260">
+                    <div class="our-team-container">
+                    <h3 class="our-team-description-title">Camila Garcia</h3>
+                    <p class="our-team-description-text">Marketing</p>
+                    </div>
                 </li>
-                <li class="our-team-list-item card"><img src="./images/DanielWilson.jpg" alt="Daniel Wilson UI Designer" width="264" height="260">
-                    <h3 class="description-title">Daniel Wilson</h3>
-                    <p class="description-text">UI Designer</p>
+                <li class="our-team-list-item card"><img class="our-team-img" src="./images/DanielWilson.jpg" alt="Daniel Wilson UI Designer" width="264" height="260">
+                    <div class="our-team-container">
+                    <h3 class="our-team-description-title">Daniel Wilson</h3>
+                    <p class="our-team-description-text">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -96,7 +106,7 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-        <a href="./index.html" class="logo link">Web<span class="logo-part-light">Studio</span></a>
+        <a href="./index.html" class="logo-footer link">Web<span class="logo-part-light">Studio</span></a>
             <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
     </footer>
