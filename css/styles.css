@@ -90,7 +90,7 @@ button:focus {
 .page-navigation {
     display: flex;
     align-items: center;
-    }
+}
 
 .menu {
     display: flex;
@@ -247,10 +247,10 @@ button:focus {
 .our-services-list {
      display: flex;
      gap: 24px;
- }
+}
 .our-services-list-item {
         flex-basis: calc((100% - 48px) / 3);
-    }
+}
 
 .our-team-section {
     background-color: var(--light-mode-background-color);
@@ -272,7 +272,7 @@ button:focus {
 .our-team-list {
         display: flex;
         gap: 24px;
-    }
+}
 
 .our-team-list-item {
     background-color: var(--page-background-color);
@@ -322,7 +322,8 @@ button:focus {
     color: var(--logo-brand-color);
     display: inline-block;
     margin-bottom: 16px;
-    }
+}
+
 .logo-part-light {
     color: var(--light-mode-background-color);
     display: inline-block;
