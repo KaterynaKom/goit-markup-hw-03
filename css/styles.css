@@ -227,6 +227,10 @@ button:focus {
         letter-spacing: 0.02em;
     }
 
+.our-services-section {
+    padding-top: 0;
+}
+
 .our-services-section-title {
         color: var(--body-brand-color);
         font-weight: 700;
@@ -277,10 +281,6 @@ button:focus {
     border-radius: 0px 0px 4px 4px;
     }
 
-.our-team-img {
-    margin-bottom: 32px;
-    }
-
 .our-team-container {
     padding: 32px 16px;
 }
@@ -326,7 +326,6 @@ button:focus {
 .logo-part-light {
     color: var(--light-mode-background-color);
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
